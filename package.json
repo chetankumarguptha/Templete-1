@@ -1,6 +1,6 @@
 {
   "name": "Templete",
-  "description": "Getting the latest designersa",
+  "description": "Getting the latest designers",
   "version": "3.0.141",
   "author": "Chetan",
   "dependencies": {
@@ -54,7 +54,7 @@
     "typescript": "3.7.4"
   },
   "repository": {
-    "type": "git",
+    "type": "",
     "url": " "
   },
   "bugs": {
