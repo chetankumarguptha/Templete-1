@@ -25,18 +25,18 @@ function IndexPage() {
         keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
         title="Home"
       />
-      <section className="pt-20 lg:mt-40  mt-24 md:pt-40">
+      <section className="pt-20 lg:mt-36  mt-24 md:pt-40">
       <div className="container mx-auto px-8 lg:flex">
         <div className="text-center lg:text-left lg:w-1/2">
           <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-none">
-            Main title of your Design page
+            Design of website with lot of idea
           </h1>
           <p className="text-xl lg:text-2xl mt-6 font-light">
-            Design the template page to promote your business startup and generate leads for the
+            Design the template page to promote to your business startup ideas and generate leads the
             offered services
           </p>
           <p className="mt-8 md:mt-12">
-            <Button size="lg">Get Started</Button>
+            <Button size="lg"> <a  href="/contact">Get Started </a></Button>
           </p>
           <p className="mt-4 text-gray-600">To get more design pages for your ' Bussiness '</p>
         </div>
@@ -45,29 +45,29 @@ function IndexPage() {
         </div>
       </div>
     </section>
-    <section id="features" className="py-20 lg:pb-40 lg:pt-48 mt-40 lg:h-screen ">
+    <section id="features" className="py-20 lg:pb-40 lg:pt-48 mt-40 bg-gray-200 lg:h-screen ">
       <div className="container mx-auto text-center">
         <h2 className="text-3xl lg:text-5xl font-semibold">Main Features</h2>
         <div class="flex flex-col md:flex-row items-start lg:mt-32 justify-between mt-12">
-            <div class="w-full bg-white shadow-lg rounded-lg px-4 py-6 lg:p-8 md:mx-2 bg-gray-200 lg:mx-4">
+            <div class="w-full bg-white shadow-lg rounded-lg px-4 py-6 lg:p-8 md:mx-2 bg-pink-100 lg:mx-4">
               <img src={Presentation} alt="" class="mx-auto h-32" />
               <h4 class="text-xl font-bold leading-tight mt-8 ">MARKETING</h4>
               <p class="text-gray-700 mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
 
-            <div class="w-full bg-white shadow-lg rounded-lg px-4 py-6 lg:p-8 bg-gray-200 md:mx-2 lg:mx-4 mt-4 md:mt-0">
+            <div class="w-full bg-white shadow-lg rounded-lg px-4 py-6 lg:p-8 bg-orange-100 md:mx-2 lg:mx-4 mt-4 md:mt-0">
               <img src={Archery}  alt="" class="mx-auto h-32" />
               <h4 class="text-xl font-bold leading-tight mt-8">BRANDING</h4>
               <p class="text-gray-700 mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
 
-            <div class="w-full bg-white shadow-lg rounded-lg px-4 py-6 lg:p-8 md:mx-2 bg-gray-200 lg:mx-4 mt-4 md:mt-0">
+            <div class="w-full bg-white shadow-lg rounded-lg px-4 py-6 lg:p-8 md:mx-2 bg-red-100 lg:mx-4 mt-4 md:mt-0">
               <img src={Rocket} alt="" class="mx-auto h-32" />
               <h4 class="text-xl font-bold leading-tight mt-8">MOTION</h4>
               <p class="text-gray-700 mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
 
-            <div class="w-full bg-white shadow-lg rounded-lg px-4 py-6 lg:p-8 md:mx-2 bg-gray-200 lg:mx-4 mt-4 md:mt-0">
+            <div class="w-full bg-white shadow-lg rounded-lg px-4 py-6 lg:p-8 md:mx-2 bg-yellow-100 lg:mx-4 mt-4 md:mt-0">
               <img src={Res} alt="" class="mx-auto h-32" />
               <h4 class="text-xl font-bold leading-tight mt-8">UI/UX DESIGN </h4>
               <p class="text-gray-700 mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -77,7 +77,7 @@ function IndexPage() {
     </section>
     <section class="relative bg-blue-600 px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 mt-12 bg-gray-200 pt-20 pb-40">
     <div class="text-center">
-      <h2 class="text-3xl leading-tight font-bold text-white">Looking for the perfect rate to grow your bussiness</h2>
+      <h2 class="text-3xl leading-tight font-bold text-white">Looking for the perfect growing of your bussiness</h2>
     </div>
 
     <div class="flex flex-col md:flex-row mt-12 items-center justify-between">
@@ -110,8 +110,6 @@ function IndexPage() {
             </div>
           </li>
         </ul>
-
-        <a href="#" class="inline-block px-6 py-4 bg-white text-blue-600 rounded-lg mt-8">Find the Fair Rate</a>
       </div>
     </div>
   </section>
@@ -124,22 +122,22 @@ function IndexPage() {
       </div>
 
       <div class="w-full md:w-1/3 md:text-right mt-6 md:mt-0">
-        <a href="#" class="inline-block px-6 py-4 bg-blue-600 text-white rounded-lg">Go to Support</a>
+        <a href="/contact" class="inline-block px-6 py-4 bg-blue-600 text-white rounded-lg">Go to Support</a>
       </div>
     </div>
   </section>
-    <section id="stats" className="py-20 bg-gray-300 lg:pt-32">
-      <div className="container mx-auto text-center">
-        <LabelText className="text-gray-600">Our customers get results</LabelText>
+    <section id="stats" className="py-12 bg-gray-300 lg:pt-32">
+      <div className="container mx-auto lg:-mt-12 text-center">
+        <LabelText className="text-gray-800 text-5xl font-semibold">Our customers get results</LabelText>
         <div className="flex flex-col sm:flex-row mt-8 lg:px-24">
           <div className="w-full sm:w-1/3">
-            <StatsBox primaryText="+100%" secondaryText="Stats Information" />
+            <StatsBox primaryText="500+" secondaryText=" Project Done" />
           </div>
           <div className="w-full sm:w-1/3">
-            <StatsBox primaryText="+100%" secondaryText="Stats Information" />
+            <StatsBox primaryText="100+" secondaryText=" Our Compinies " />
           </div>
           <div className="w-full sm:w-1/3">
-            <StatsBox primaryText="+100%" secondaryText="Stats Information" />
+            <StatsBox primaryText="9623+" secondaryText="Client Satisfied" />
           </div>
         </div>
       </div>
@@ -148,10 +146,10 @@ function IndexPage() {
     <section className="container mx-auto my-20 py-24 bg-orange-300 rounded-lg  text-center">
       <h3 className="text-5xl font-semibold">Ready to grow your business?</h3>
       <p className="mt-8 text-xl font-light">
-        Quis lectus nulla at volutpat diam ut. Enim lobortis scelerisque fermentum dui faucibus in.
+        Make a small note we will get to know you!!!
       </p>
       <p className="mt-8">
-        <Button size="xl">Get Started Now</Button>
+        <Button size="xl"> <a href="/contact">Get Started Now </a></Button>
       </p>
     </section>
     </Layout>
@@ -159,17 +157,3 @@ function IndexPage() {
 }
 
 export default IndexPage;
-
-
-// <section id="testimonials" className="py-8 lg:py-40">
-// <div className="container mx-auto">
-//   <LabelText className="mb-8 text-gray-600 text-center">What customers are saying</LabelText>
-//   <div className="flex flex-col md:flex-row md:-mx-3">
-//     {customerData.map(customer => (
-//       <div key={customer.customerName} className="flex-1 px-3">
-//         <CustomerCard customer={customer} />
-//       </div>
-//     ))}
-//   </div>
-// </div>
-// </section>

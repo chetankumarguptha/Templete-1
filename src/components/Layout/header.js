@@ -1,29 +1,19 @@
-import { graphql, useStaticQuery, Link } from "gatsby";
+import { Link } from "gatsby";
 import React, { useState } from "react";
 import LogoIcon from '../../svg/LogoIcon';
 
 
 function Header() {
   const [isExpanded, toggleExpansion] = useState(false);
-  // const { site } = useStaticQuery(graphql`
-  //   query SiteTitleQuery {
-  //     site {
-  //       siteMetadata {
-  //         title
-  //       }
-  //     }
-  //   }
-  // `);
-
   return (
-    <header className=" fixed top-0 bg-red-500 w-screen z-50 ">
+    <header className=" fixed top-0 bg-red-500 w-screen z-50 shadow-xl ">
       <div className="flex flex-wrap items-center justify-between max-w-4xl mx-auto p-4 md:p-8 ">
         <Link className="flex items-center no-underline text-white " to="/">
         <div className="flex items-center text-2xl">
             <div className="w-12 mr-3">
               <LogoIcon />
             </div>
-            UnPin
+            @rino
          </div>
         </Link>
 
@@ -32,7 +22,7 @@ function Header() {
           onClick={() => toggleExpansion(!isExpanded)}
         >
           <svg
-            className="fill-current h-3 w-3"
+            className="fill-current h-3 w-3 "
             viewBox="0 0 20 20"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -56,13 +46,14 @@ function Header() {
               title: `About`
             },
             {
-              route: `/contact`,
-              title: `Contact`
-            },
-            {
               route: `/services`,
               title: `Services`
             },
+            {
+              route: `/contact`,
+              title: `Contact`
+            },
+           
            
           ].map(link => (
             <Link

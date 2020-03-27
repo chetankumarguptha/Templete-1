@@ -42,7 +42,7 @@ function AboutPage() {
         <div class="mt-12 md:mt-20 w-full md:max-w-3xl mx-auto">
           <p class="text-xl">&ldquo;FairRate is beautiful, elegant and easy to apply. I’ve been able to apply for an
             amazing rate in just a minutes. Thank you very much for creating this impressive service!&rdquo;</p>
-          <p class="text-xl font-bold text-blue-600 mt-4">Camila</p>
+          <p class="text-xl font-bold text-blue-600 mt-4">Arino</p>
           <p class="text-sm uppercase tracking-wider text-gray-700">Founder of the company</p>
         </div>
       </section>

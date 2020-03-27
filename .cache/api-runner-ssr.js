@@ -3,7 +3,7 @@ var plugins = [{
       options: {"plugins":[]},
     },{
       plugin: require('/home/chetan/Gatsby/Templete-1/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
-      options: {"plugins":[],"name":"Cheerlabs","short_name":"Cheerlabs","start_url":"/","background_color":"#ffffff","theme_color":"#4dc0b5","display":"minimal-ui","icon":"src/images/logo.png"},
+      options: {"plugins":[],"name":"Templete-Design","short_name":"Templete-Design","start_url":"/","background_color":"#ffffff","theme_color":"#4dc0b5","display":"minimal-ui"},
     },{
       plugin: require('/home/chetan/Gatsby/Templete-1/node_modules/gatsby-plugin-offline/gatsby-ssr'),
       options: {"plugins":[]},

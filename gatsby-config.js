@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Cheerlabs`,
+    title: `Templete-Design`,
     description: ` `,
     author: `Chetan Kumar`
   },
@@ -9,13 +9,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Cheerlabs`,
-        short_name: `Cheerlabs`,
+        name: `Templete-Design`,
+        short_name: `Templete-Design`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#4dc0b5`,
         display: `minimal-ui`,
-        icon: `src/images/logo.png`
+        icon: `src/svg/LogoIcon.js`
       }
     },
     `gatsby-plugin-postcss`,
