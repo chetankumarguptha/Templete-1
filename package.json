@@ -4,7 +4,7 @@
   "version": "3.0.141",
   "author": "Chetan",
   "dependencies": {
-    "gatsby": "2.18.17",
+    "gatsby": "4.25.7",
     "gatsby-plugin-manifest": "2.2.34",
     "gatsby-plugin-offline": "3.0.30",
     "gatsby-plugin-postcss": "2.1.18",
